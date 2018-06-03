@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { ListView } from 'react-native';
 
 // import components
-import { ListItem } from './common';
+import ListItem from './common/ListItem';
 
 class LibraryList extends Component{
     componentWillMount(){
